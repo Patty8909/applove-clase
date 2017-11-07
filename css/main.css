@@ -101,3 +101,54 @@ header {
   padding: 14px;
   color: inherit;
 }
+
+/**********************************************************/
+/*******Maquetando la tercera seccion*******/
+
+
+.box-third {
+  background-color: #ffffff;
+  width: 100%;
+  position: relative;
+  top: -40px ;
+}
+.box-third h2 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 60px;
+}
+
+.box-third h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.box-third img {
+  position: relative;
+  width: 70%;
+  left: 15%;
+}
+
+/*******maquetando la seccion de columnas de imagenes*******/
+
+.box-images {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.box-third .box-images img {
+  width: 100%;
+}
+
+.box-third .image-tree {
+  column-count: 3;
+  column-width: 30px;
+}
+
+.box-third .image-tree p {
+  text-align: center;
+}
+
+.box-third .image-tree img {
+  cursor: pointer;
+}
