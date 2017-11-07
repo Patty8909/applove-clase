@@ -144,7 +144,7 @@ header {
   color: white;
   font-family: inherit;
   padding: 10px;
-  text-decoration:none; 
+  text-decoration:none;
 
 
 }
@@ -202,6 +202,7 @@ header {
 
 .box-third .image-tree p {
   text-align: center;
+  color: red;
 }
 
 .box-third .image-tree img {
