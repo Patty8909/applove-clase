@@ -21,6 +21,7 @@ img {
   vertical-align: middle;
 }
 
+
 .container {
   width: 1200px;
   margin-right: auto;
@@ -81,13 +82,46 @@ li {
 .box-right {
   float: right;
 }
+
+
+/*Inicio del Menu Header*/
 header {
-  height: 20vh;
+  /*outline: 1px solid blue;*/
+  background-color: #fff;
+  /*box-sizing: border-box;*/
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0 auto;
   position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
 }
-.box-right>img {
-  width: 100px;
+
+.menu-nav {
+  float: left;
+  margin-left: 45px;
+  margin-top: 40px;
 }
+
+.menu-nav a {
+  font-weight: bold;
+  /*margin: 10px 45px  10px 0;*/
+  margin-left: 25px;
+}
+
+.triangle-logo {
+  float: right;
+  margin: 9px 100px 0 0;
+  width: 70px;
+}
+
+
+
+
+
+
 .bg-home:first-of-type {
   background-image: url("../assets/images/bg-home.jpg");
   height: 80vh;
