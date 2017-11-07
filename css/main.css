@@ -101,3 +101,14 @@ header {
   padding: 14px;
   color: inherit;
 }
+/*modificando css section 3 Patty*/
+.section3 {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 33%;
+}
+.color {
+  background-color: #E95853;
+  text-align: center;
+  margin: 0 auto;
+}
